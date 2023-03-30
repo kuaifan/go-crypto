@@ -260,7 +260,7 @@ const (
 	featuresSubpacket            signatureSubpacketType = 30
 	embeddedSignatureSubpacket   signatureSubpacketType = 32
 	issuerFingerprintSubpacket   signatureSubpacketType = 33
-	prefCipherSuitesSubpacket    signatureSubpacketType = 39
+	prefCipherSuitesSubpacket    signatureSubpacketType = 34
 )
 
 // parseSignatureSubpacket parses a single subpacket. len(subpacket) is >= 1.
